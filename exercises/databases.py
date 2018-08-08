@@ -37,6 +37,7 @@ def query_all():
 	students = session.query(Student).all()
 	for student in students:
 		print(student)
+		print(student.student)
 		print('\n')
 	return students
 
